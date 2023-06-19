@@ -21,5 +21,25 @@ namespace RescueProjectReactASPNET.Hubs
 
         }
 
+        //added just to inform more about the connection
+
+        public override Task OnConnectedAsync()
+        {
+            Console.WriteLine("Connection established");
+            return base.OnConnectedAsync();
+        }
+
+   
+      
+
+
+
+
+
+
+
+
+
+
     }
 }
